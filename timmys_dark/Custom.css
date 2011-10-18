@@ -8,10 +8,6 @@
 
 /* ==|== layout ======================================== */
 
-body {
-	-webkit-font-smoothing: subpixel-antialiased;
-}
-
 div.text-editor-contents, #console-messages {
 	background: #222222;
 	color: white;
