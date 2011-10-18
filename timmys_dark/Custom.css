@@ -1,0 +1,230 @@
+
+/**********************************************/
+/*
+/* Timmy's Dark
+/* http://timmywillison.com/
+/*
+/**********************************************/
+
+/* ==|== layout ======================================== */
+
+body {
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+
+div.text-editor-contents, #console-messages {
+	background: #222222;
+	color: white;
+}
+
+#elements-content.source-code {
+	background: #222222 !important;
+	font-size: 12px !important;
+}
+
+body.platform-mac.platform-mac-snowleopard .monospace,
+body.platform-mac.platform-mac-snowleopard .source-code {
+	font-size: 12px !important;
+}
+
+#elements-content .highlight { 
+	color: #80B5FF;
+}
+
+.webkit-execution-line.webkit-line-content {
+	background-color: #4055BF !important;
+}
+
+#elements-content .selection {
+
+}
+
+#elements-content .selection.selected {
+
+}
+
+#elements-content .parent {
+
+}
+
+/*.outline-disclosure ol:focus li.parent.expanded.selected::before*/
+/* #elements-content .outline-disclosure li.parent::before, */
+/* #elements-content .outline-disclosure ol:focus li.parent.expanded.selected::before { */
+/* 	background: none !important; */
+/* 	content: '' !important; */
+/* } */
+
+#elements-content .parent.selected, #elements-content li.selected {
+	background: #4c4c4c !important;
+}
+
+.styles-section li.selected {
+	background: white !important;
+}
+
+#elements-content .parent.expanded {
+}
+
+.outline-disclosure li.parent::before,
+.outline-disclosure li.parent::before {
+	content: url(chrome-devtools://devtools/Images/treeRightTriangleWhite.png) !important;
+}
+.outline-disclosure li.parent.expanded::before {
+	content: url(chrome-devtools://devtools/Images/treeDownTriangleWhite.png) !important;
+}
+
+.diff-container .webkit-changed-line.webkit-line-content {
+	background-color: #1F1F7A !important;
+}
+.diff-container .webkit-added-line.webkit-line-content {
+	background-color: #194D19 !important;
+}
+
+/**********************************************/
+/* HTML
+/**********************************************/
+.webkit-html-comment {
+	color: #9bdf9d !important;
+}
+
+.webkit-html-doctype {
+	color: #ff94d4 !important;
+}
+
+.webkit-html-tag {
+	color: #50a2e7 !important;
+}
+
+.webkit-html-tag-name {
+		
+}
+
+.webkit-html-attribute {
+
+}
+
+.webkit-html-attribute-name {
+	color: #d287f7 !important;
+}
+
+.webkit-html-attribute-value {
+	color: #f09f70 !important;
+}
+
+.webkit-html-external-link, .webkit-html-resource-link {
+	color: #F65555 !important;
+} 
+
+.webkit-html-text-tag {
+
+}
+
+.webkit-html-text-node {
+	color: #fafafa !important;
+}
+
+.webkit-html-css-node {
+	color: #fafafa !important;
+}
+
+.webkit-html-js-node {
+	color: #fafafa !important;
+}
+
+
+/**********************************************/
+/* CSS
+/**********************************************/
+
+.webkit-css-comment {
+	color: #9bdf9d !important;
+}
+
+.webkit-css-url {
+	color: #F65555 !important;
+}
+
+.webkit-css-color {
+
+}
+
+.webkit-css-selector {
+	color: #7c9ffe !important;
+} 
+
+.webkit-css-property {
+	/* color: #d287f7 !important; */
+}
+
+.webkit-css-number {
+	color: #80B5FF !important;
+}
+
+.webkit-css-keyword {
+	color: #ff94d4 !important;
+}
+
+.webkit-css-string {
+	color: #f09f70 !important;
+}
+
+.webkit-css-important {
+	color: #F65555 !important;
+}
+
+
+/**********************************************/
+/* JavaScript
+/**********************************************/
+.webkit-javascript-comment {
+	color: #9bdf9d !important;
+}
+
+.webkit-javascript-keyword {
+	color: #ff94d4 !important;
+}
+
+.webkit-javascript-ident {
+	color: white !important;
+}
+
+.webkit-javascript-string {
+	color: #f09f70 !important;
+}
+
+.webkit-javascript-number {
+	color: #80B5FF !important;
+}
+
+.webkit-javascript-regexp {
+	color: #EB4A47 !important;
+}
+
+/* ==|== console ======================================== */
+.console-formatted-object,
+.console-formatted-node,
+.console-group-messages .section .header .title {
+	color: white !important;
+}
+
+#console-messages .section .properties .name,
+#console-messages .event-properties .name {
+	color: #e678ed !important;
+}
+
+#console-messages .console-formatted-string,
+#console-messages .console-formatted-regexp {
+	color: #f07775 !important;
+}
+
+.console-formatted-number {
+	color: #a799ff !important;
+}
+
+.console-group-messages .section .header::before {
+	content: url(chrome-devtools://devtools/Images/treeRightTriangleWhite.png) !important;
+}
+
+.console-group-messages .section.expanded .header::before {
+	content: url(chrome-devtools://devtools/Images/treeDownTriangleWhite.png) !important;
+}
