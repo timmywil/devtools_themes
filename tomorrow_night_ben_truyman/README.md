@@ -1,1 +1,1 @@
-![Tomorrow Night](/timmywil/devtools_themes/blob/master/tomorrow_night_ben_truyman/preview.png)
+![Tomorrow Night](/timmywil/devtools_themes/raw/master/tomorrow_night_ben_truyman/preview.png)

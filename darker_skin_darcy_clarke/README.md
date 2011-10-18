@@ -1,1 +1,1 @@
-![Darker Skin](/timmywil/devtools_themes/blob/master/darker_skin_darcy_clarke/preview.png)
+![Darker Skin](/timmywil/devtools_themes/raw/master/darker_skin_darcy_clarke/preview.png)

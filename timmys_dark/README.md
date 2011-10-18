@@ -1,1 +1,1 @@
-![Timmy's theme](/timmywil/devtools_themes/blob/master/timmys_dark/preview.png)
+![Timmy's theme](/timmywil/devtools_themes/raw/master/timmys_dark/preview.png)

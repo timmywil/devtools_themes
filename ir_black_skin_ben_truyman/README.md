@@ -1,1 +1,1 @@
-![IR Black Skin](/timmywil/devtools_themes/blob/master/ir_black_skin_ben_truyman/preview.png)
+![IR Black Skin](/timmywil/devtools_themes/raw/master/ir_black_skin_ben_truyman/preview.png)
