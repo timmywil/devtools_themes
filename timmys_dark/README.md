@@ -1,1 +1,1 @@
-![Timmy's theme](preview.png)
+![Timmy's theme](/timmywil/devtools_themes/blob/master/timmys_dark/preview.png)
