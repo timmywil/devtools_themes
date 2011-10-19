@@ -1,9 +1,11 @@
-
 /**********************************************/
 /*
 /* Darker Skin by Darcy Clarke - 2011
 /*
-/* Based on Joe Bergantine's Specials Board:
+/* For how to install, or more themes, check out:
+/* http://darcyclarke.me/design/skin-your-chrome-inspector/
+/* 
+/* Color scheme is based on Joe Bergantine's Specials Board:
 /* http://joebergantine.com/werkstatt/seestyle
 /*
 /**********************************************/
@@ -12,12 +14,12 @@
 /* Layout
 /**********************************************/
 #elements-content.source-code {
-	background: #242537 !important;
-	font-size: 12px !important;
+  background: #242537 !important;
+  font-size: 12px !important;
 }
 
 #elements-content .highlight { 
-	color: blue;
+  color: #d4d4d4;
 }
 
 #elements-content .selection {
@@ -35,28 +37,52 @@
 /*.outline-disclosure ol:focus li.parent.expanded.selected::before*/
 #elements-content .outline-disclosure li.parent::before,
 #elements-content .outline-disclosure ol:focus li.parent.expanded.selected::before {
-	background: none !important;
-	content: '' !important;
+  background: none !important;
+  content: '' !important;
 }
 
 #elements-content .parent.selected {
-	
+  
 }
 
 #elements-content .parent.selected {
-	padding-top: 2px !important;
-	padding-bottom: 2px !important;
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
 }
 
 #elements-content .parent.expanded {
-	
+  
+}
+
+#elements-content .parent::before {
+  content: url(chrome-devtools://devtools/Images/treeRightTriangleWhite.png) !important;
+  position: relative;
+  z-index: 999;
+}
+
+#elements-content .parent.expanded::before {
+  content: url(chrome-devtools://devtools/Images/treeDownTriangleWhite.png) !important;
+}
+
+#elements-sidebar .styles-section .properties li.parent::before,
+#elements-sidebar .section > .header::before,
+#elements-sidebar .properties-tree li.parent::before,
+#elements-sidebar .event-bars .event-bar .header::before {
+  content: url(chrome-devtools://devtools/Images/treeRightTriangleWhite.png) !important;
+}
+
+#elements-sidebar .styles-section .properties li.parent.expanded::before,
+#elements-sidebar .section.expanded > .header::before,
+#elements-sidebar .properties-tree li.parent.expanded::before,
+#elements-sidebar .event-bars .event-bar.expanded .header::before {
+  content: url(chrome-devtools://devtools/Images/treeDownTriangleWhite.png) !important;
 }
 
 /**********************************************/
 /* HTML
 /**********************************************/
 #elements-content .webkit-html-comment {
-	color: #8c8c8c !important;
+  color: #8c8c8c !important;
 }
 
 #elements-content .webkit-html-doctype {
@@ -64,11 +90,11 @@
 }
 
 #elements-content .webkit-html-tag {
-	color: #ffc97c !important;
+  color: #ffc97c !important;
 }
 
 #elements-content .webkit-html-tag-name {
-		
+    
 }
 
 #elements-content .webkit-html-attribute {
@@ -76,11 +102,11 @@
 }
 
 #elements-content .webkit-html-attribute-name {
-	color: #d97640 !important;
+  color: #d97640 !important;
 }
 
 #elements-content .webkit-html-attribute-value {
-	color: #abca7e !important;
+  color: #abca7e !important;
 }
 
 #elements-content .webkit-html-external-link {
@@ -96,15 +122,15 @@
 }
 
 #elements-content .webkit-html-text-node {
-	color: #c2c3c3 !important;
+  color: #c2c3c3 !important;
 }
 
 #elements-content .webkit-html-css-node {
-	color: #c2c3c3 !important;
+  color: #c2c3c3 !important;
 }
 
 #elements-content .webkit-html-js-node {
-	color: #c2c3c3 !important;
+  color: #c2c3c3 !important;
 }
 
 
@@ -157,11 +183,11 @@
 }
 
 #elements-content .webkit-javascript-keyword {
-	color: #d97640 !important;
+  color: #d97640 !important;
 }
 
 #elements-content .webkit-javascript-ident {
-	color: #d97640 !important;
+  color: #d97640 !important;
 }
 
 #elements-content .webkit-javascript-string {
