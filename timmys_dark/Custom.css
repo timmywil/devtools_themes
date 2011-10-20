@@ -13,6 +13,10 @@ div.text-editor-contents, #console-messages {
 	color: white;
 }
 
+.source-frame-eval-expression {
+	background-color: #999900 !important;
+}
+
 #elements-content.source-code {
 	background: #222222 !important;
 	font-size: 12px !important;
@@ -46,8 +50,8 @@ body.platform-mac.platform-mac-snowleopard .source-code {
 /*.outline-disclosure ol:focus li.parent.expanded.selected::before*/
 /* #elements-content .outline-disclosure li.parent::before, */
 /* #elements-content .outline-disclosure ol:focus li.parent.expanded.selected::before { */
-/* 	background: none !important; */
-/* 	content: '' !important; */
+/*  background: none !important; */
+/*  content: '' !important; */
 /* } */
 
 #elements-content .parent.selected, #elements-content li.selected {
