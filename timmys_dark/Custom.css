@@ -35,6 +35,11 @@ body.platform-mac.platform-mac-snowleopard .source-code {
 	background-color: #4055BF !important;
 }
 
+@-webkit-keyframes fadeout {
+	from { background-color: #7F8000; }
+	to { background-color: #222222; }
+}
+
 #elements-content .selection {
 
 }
