@@ -212,6 +212,10 @@ body.platform-mac.platform-mac-snowleopard .source-code {
 	color: white !important;
 }
 
+.properties-tree .console-formatted-node {
+	color: black !important;
+}
+
 #console-messages .section .properties .name,
 #console-messages .event-properties .name {
 	color: #e678ed !important;
