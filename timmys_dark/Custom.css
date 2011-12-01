@@ -71,12 +71,16 @@ body.platform-mac.platform-mac-snowleopard .source-code {
 }
 
 .outline-disclosure li.parent::before,
-.outline-disclosure li.parent::before {
+.outline-disclosure li.parent::before,
+.properties-tree li.parent::before {
 	content: url(chrome-devtools://devtools/Images/treeRightTriangleWhite.png) !important;
 }
-.outline-disclosure li.parent.expanded::before {
+.outline-disclosure li.parent.expanded::before,
+.properties-tree li.parent.expanded::before {
 	content: url(chrome-devtools://devtools/Images/treeDownTriangleWhite.png) !important;
 }
+
+
 
 .diff-container .webkit-changed-line.webkit-line-content {
 	background-color: #1F1F7A !important;
@@ -212,7 +216,8 @@ body.platform-mac.platform-mac-snowleopard .source-code {
 	color: white !important;
 }
 
-.properties-tree .console-formatted-node {
+#scripts-sidebar .console-formatted-node,
+#scripts-sidebar .console-formatted-object {
 	color: black !important;
 }
 
